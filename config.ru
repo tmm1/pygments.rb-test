@@ -6,7 +6,7 @@ require 'sinatra/base'
 
 # Use python2.6 as 2.7 errors on some Heroku stacks.
 require 'rubypython'
-RubyPython.configure :python_exe => 'python2.6'
+RubyPython.configure :python_exe => 'python'
 
 class PygmentsTest < Sinatra::Base
 
